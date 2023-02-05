@@ -9,9 +9,8 @@ header {
   background-color: rgba(10, 10, 10, 0.89);
   display: flex;
   justify-content: center;
-  padding: 13px;
-  height: 5vh;
   align-items: center;
+  height: 10vh;
 }
 
 .logo .nombre-pagina {
@@ -137,11 +136,10 @@ main {
 }
 
 footer {
-  width: 100%;
-  height: 12.3vh;
   background-color: rgba(10, 10, 10, 0.89);
   display: flex;
   justify-content: space-between;
+  height: 10vh;
 }
 
 .menu-footer {
