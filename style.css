@@ -182,14 +182,12 @@ footer {
   main {
     display: flex;
     width: 100%;
-    justify-content: space-between;
     flex-direction: column;
-    height: 80vh;
   }
 
   .barra-lateral-izquierda {
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
     height: 100vh; 
     align-items: center;
   }
@@ -219,9 +217,17 @@ footer {
 
   .card-container .card {
     width: 100%;
+    margin: 10px;
+     
+  }
+
+  .card:hover {
+    height : 320px; 
+    top : 0;
+    left: 0;
   }
 
   .item a{
-    padding: 10px;
+    padding: 0 10px;
   }
 }
